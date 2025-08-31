@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amol Narang | Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        h1, h2 {
+            color: #1e2a38;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        section {
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .contact-info {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Amol Narang</h1>
+<p class="contact-info">
+Mumbai, India | an131998@gmail.com | 9412961305 | <a href="https://github.com/AmolNarang" target="_blank">github.com/AmolNarang</a> | <a href="https://linkedin.com/in/amolnarang" target="_blank">linkedin.com/in/amolnarang</a>
+</p>
+
+<p>Data Scientist with 2+ years architecting and building end-to-end GenAI systems from real-time data streams to model deployment. Expert in designing scalable RAG pipelines, fine-tuning LLMs using LoRA/PEFT, and orchestrating multi-agent AI workflows. Proven track record delivering production GenAI solutions via Docker, AWS & FastAPI.</p>
+
+<section>
+<h2>Education</h2>
+<p>IIT Bombay (MTech in GNR) Jul 2021 – Jun 2023</p>
+<p>Relevant Coursework: Machine Learning, Deep Learning, Transformer Architectures, NLP, Computer Vision, Data Structures and Algorithms</p>
+<p>GBPIET (BTech in EE) Aug 2016 – Jul 2020</p>
+</section>
+
+<section>
+<h2>Work Experience</h2>
+<p>Locobuzz, Mumbai Jul 2023 – Present</p>
+<p>Data Scientist</p>
+
+<h3>Newsverse | AI-Powered News Intelligence Platform</h3>
+<p>Led AI architecture and pipeline development, driving impactful solutions with strong ownership and leadership.</p>
+<ul>
+<li>Developed an incremental clustering algorithm powered by semantic embeddings for enriching 500K+ news articles daily in real time, eliminating duplicate content processing and reducing computational overhead by ~50% [USP]</li>
+<li>Architected Redis-based dynamic rolling window system with FAISS-powered embedding similarity search, ensuring scalable real-time clustering that handles 10x traffic spikes while maintaining 99.5% uptime</li>
+<li>Built agentic AI pipeline with LangGraph orchestrating multi-LLM workflows (GPT-4, Claude), enabling autonomous reasoning over complex news data. This improved client feature adoption by 25% and reduced time to actionable insights from 4 hours (manual workflows) to 30 minutes (automated).</li>
+<li>Deployed production LLM pipelines using AWS Bedrock (Claude, Nova) on EKS for real-time content processing including thematic tagging, NER, and abstractive summarization, supporting dynamic content categorization workflows with 95% processing reliability</li>
+<li>Developed NV Score, a weighted statistical metric (NewsVerse Proprietary Formula) derived through iterative analysis to quantify event impact, enabling 3x faster decision-making through automated priority scoring</li>
+</ul>
+
+<h3>ABSA | Aspect Based Sentiment Analysis End to End Product</h3>
+<ul>
+<li>Implemented advanced NLP preprocessing pipeline; Fine-tuned T5-Large model using LoRA/PEFT techniques for aspect-opinion extraction and sentiment classification achieving 92% accuracy, improving client analysis precision by 35% over previous rule-based methods</li>
+<li>Built & Deployed full-stack Docker-based pipeline on AWS with containerized model serving and CI/CD deployment, integrating ABSA capabilities directly into the CX platform for real-time sentiment analysis</li>
+<li>Developed dynamic semantic similarity engine using Cohere embeddings with vector database (FAISS) for intelligent aspect clustering, reducing manual categorization effort by 70% through automated grouping</li>
+</ul>
+
+<h3>Response Genie | AI-powered Response Generator for CX</h3>
+<ul>
+<li>Implemented advanced RAG architecture combining dense retrieval (sentence-transformers) with sparse retrieval (BM25) and reranking using cross-encoders, achieving 30% improvement in response relevance and reducing customer escalation tickets by 40%</li>
+<li>Designed prompt engineering framework with few-shot learning and chain-of-thought reasoning, enabling support teams to handle 2.5x more queries per hour through automated response generation with human oversight</li>
+</ul>
+
+<h3>Other Projects</h3>
+<ul>
+<li>Multi-label Social Media Classification: Fine-tuned DistilBERT-base-uncased for categorizing social media posts into 8 intent categories, achieving 78% macro F1-score and improving content routing efficiency by 40%</li>
+<li>Promotional Post Detection using ensemble of Random Forest 86% accuracy</li>
+</ul>
+</section>
+
+<section>
+<h2>Project Work</h2>
+<ul>
+<li>Deep Learning for Facial Emotion Recognition: Implemented CNN architecture with transfer learning using VGG16 backbone, achieving 85.7% accuracy on FER2013 dataset (21.7% improvement over baseline CNN). Applied data augmentation and dropout regularization for robust emotion detection applicable to computer vision applications [IITB coursework]</li>
+<li>ML Pipeline for Customer Churn Prediction: Built end-to-end ML pipeline with feature engineering, hyperparameter tuning (Optuna), and model comparison across SVM, XGBoost, AdaBoost, and Random Forest. XGBoost achieved 81% accuracy and 0.842 ROC AUC with 5-fold cross-validation, demonstrating strong predictive capabilities [IITB coursework]</li>
+<li>Vision-Language Model for Image Captioning: Developed encoder-decoder architecture combining CNN feature extraction (VGG16) with LSTM sequence generation. Implemented attention mechanism and achieved 0.525 BLEU score on Flickr-8k dataset, creating foundation for automated content generation systems [IITB coursework]</li>
+</ul>
+</section>
+
+<section>
+<h2>Skills</h2>
+<ul>
+<li>Languages: Python, SQL, C/C++</li>
+<li>GenAI/LLMs: Transformer Architecture, Fine-tuning (LoRA, QLoRA, PEFT), Prompt Engineering, RAG, LangChain, LangGraph, Agentic AI, Multi-modal Models</li>
+<li>ML/DL: PyTorch, TensorFlow, Hugging Face Transformers, Scikit-learn, XGBoost, Ensemble Methods, Hyperparameter Optimization, ETL</li>
+<li>Cloud & MLOps: AWS (Bedrock, EC2, EKS, S3), Docker, FastAPI, Streamlit</li>
+<li>Data & Vector DBs: MSSQL, Redis, FAISS, Hybrid Search (BM25 + Semantic), Kafka</li>
+<li>Other: Git, Computer Vision (CNN, Transfer Learning), NLP, Attention Mechanisms, Neural Networks, MLOps</li>
+</ul>
+</section>
+
+<section>
+<h2>Scholastic Achievements</h2>
+<ul>
+<li>Secured 99.35 percentile among 0.1 Million students appeared in GATE EE 2021 | JEE Advanced 2016 Qualified</li>
+</ul>
+</section>
+
+<section>
+<h2>Positions of Responsibility</h2>
+<ul>
+<li>Interview Coordinator, Placement Off., IITB [Oct’21-Dec’21] | Film & Media Coordinator, PGCult, IITB [Aug’21-May'22]</li>
+</ul>
+</section>
+
+</body>
+</html>
+
