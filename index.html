@@ -4,43 +4,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amol Narang | Resume</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
             margin: 20px;
-            background-color: #f7f7f7;
+            background-color: #f4f7fa;
             color: #333;
         }
-        h1, h2 {
+
+        h1 {
             color: #1e2a38;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
+            font-size: 2.4em;
             margin-bottom: 5px;
         }
-        section {
-            margin-bottom: 20px;
-            background-color: #fff;
-            padding: 15px 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .contact-info {
+
+        h2 {
+            color: #0b3d91;
+            font-size: 1.6em;
             margin-bottom: 10px;
+            border-bottom: 2px solid #e1e4e8;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            color: #1e2a38;
+            margin: 10px 0 5px 0;
+        }
+
+        p {
+            margin: 5px 0 10px 0;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        section {
+            margin-bottom: 25px;
+            background-color: #ffffff;
+            padding: 20px 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        section:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+        }
+
+        .contact-info {
+            margin-bottom: 15px;
+            font-size: 0.95em;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .contact-info a {
+            color: #0b3d91;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+            color: #062a6f;
+        }
+
+        .contact-info i {
+            margin-right: 5px;
+            color: #0b3d91;
+        }
+
+        .intro {
+    font-size: 1.05em;
+    line-height: 1.7;
+    margin: 25px 0;
+    padding: 20px 0;
+    text-align: center;
+    color: #2c3e50;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    border-top: 1px solid #e1e4e8;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+
+        .center-section {
+            text-align: center;
         }
     </style>
 </head>
 <body>
 
-<h1>Amol Narang</h1>
-<p class="contact-info">
-an131998@gmail.com | 9412961305 | <a href="https://github.com/AmolNarang" target="_blank">github.com/AmolNarang</a> | <a href="https://linkedin.com/in/amolnarang" target="_blank">linkedin.com/in/amolnarang</a>
-</p>
+<div class="center-section">
+    <h1>Amol Narang</h1>
+    <p class="contact-info">
+        <span><i class="fas fa-envelope"></i> <a href="mailto:an131998@gmail.com">an131998@gmail.com</a></span>
+        <span><i class="fas fa-phone"></i> 9412961305</span>
+        <span><i class="fab fa-github"></i> <a href="https://github.com/AmolNarang" target="_blank">github.com/AmolNarang</a></span>
+        <span><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/amolnarang" target="_blank">linkedin.com/in/amolnarang</a></span>
+        <span><i class="fas fa-map-marker-alt"></i> Open to: Bangalore / Hyderabad / Mumbai / Gurgaon / Noida / Pune / Remote</span>
+    </p>
+</div>
 
-<p>Data Scientist with 2+ years architecting and building end-to-end GenAI systems from real-time data streams to model deployment. Expert in designing scalable RAG pipelines, fine-tuning LLMs using LoRA/PEFT, and orchestrating multi-agent AI workflows. Proven track record delivering production GenAI solutions via Docker, AWS & FastAPI.</p>
+<p class="intro">
+    Data Scientist with 2+ years architecting and building end-to-end GenAI systems from real-time data streams to model deployment. Expert in designing scalable RAG pipelines, fine-tuning LLMs using LoRA/PEFT, and orchestrating multi-agent AI workflows. Proven track record delivering production GenAI solutions via Docker, AWS & FastAPI.
+</p>
 
 <section>
 <h2>Education</h2>
